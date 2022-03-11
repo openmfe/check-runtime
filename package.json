@@ -1,15 +1,20 @@
 {
-    "name": "openmfe-check-dom",
+    "name": "@openmfe/check-dom",
+    "description" : "Runtime compliance checks for OpenMFE microfrontends.",
     "type": "module",
-    "version": "1.0.0",
+    "version": "0.0.1",
     "bin": {
         "openmfe-check-dom": "./cli/run.js"
     },
+    "files": [
+        "cli",
+        "lib"
+    ],
     "license": "ISC",
     "dependencies": {
         "html-validate": "^6.1.5",
         "node-fetch": "^3.1.0",
-        "openmfe-manifest": "file:../openmfe-manifest",
+        "@openmfe/manifest": "^0.1.0",
         "puppeteer": "^13.0.1"
     }
 }
