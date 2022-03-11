@@ -1,8 +1,8 @@
 {
     "name": "@openmfe/check-dom",
-    "description" : "Runtime compliance checks for OpenMFE microfrontends.",
+    "description": "Runtime compliance checks for OpenMFE microfrontends.",
     "type": "module",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "bin": {
         "openmfe-check-dom": "./cli/run.js"
     },
