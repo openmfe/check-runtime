@@ -4,7 +4,7 @@
     "type": "module",
     "version": "0.2.0",
     "bin": {
-        "openmfe-check-dom": "./cli/run.js"
+        "openmfe-check-runtime": "./cli/run.js"
     },
     "files": [
         "cli",
