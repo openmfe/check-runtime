@@ -17,4 +17,4 @@ PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=1 npm i @openmfe/check-runtime
 PUPPETEER_EXECUTABLE_PATH=<path to Chrome/Chromium> npx openmfe-check-runtime <manifest url>
 ```
 
-If you use this regularily, it might be a good idea to add this to your shell environment, e.g. the `~/.bashrc` file (will only work after opening a new shell).
+If you use this regularily, it might be a good idea to add the `PUPPETEER_SKIP_CHROMIUM_DOWNLOAD` and `PUPPETEER_EXECUTABLE_PATH` variables to your shell environment, e.g. the `~/.bashrc` file (will only work after opening a new shell).
