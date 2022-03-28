@@ -6,5 +6,5 @@ This tool checks if an OpenMFE microfrontend is compliant with the specification
 To test a microfrontend, you need to install this tool as a library and then run it as follows:
 
 ```
-npx openmfe-check-dom <manifest url>
+npx openmfe-check-runtime <manifest url>
 ```
